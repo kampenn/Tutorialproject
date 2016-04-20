@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.nickvankampen.tutorialproject.Main2Activity"
+    android:background="#6599e8">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Klantnaam"
+        android:id="@+id/klantnaambutton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#6599e8" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Factuurdatum"
+        android:id="@+id/factuurdatumbutton"
+        android:background="#6599e8"
+        android:layout_below="@+id/klantnaambutton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/klantnaambutton"
+        android:layout_alignEnd="@+id/klantnaambutton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leverdatum"
+        android:id="@+id/leverdatumbutton"
+        android:background="#6599e8"
+        android:layout_below="@+id/factuurdatumbutton"
+        android:layout_alignRight="@+id/factuurdatumbutton"
+        android:layout_alignEnd="@+id/factuurdatumbutton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Artikel"
+        android:id="@+id/artikelbutton"
+        android:background="#6599e8"
+        android:layout_below="@+id/leverdatumbutton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/gewerkteurenbutton"
+        android:layout_alignEnd="@+id/gewerkteurenbutton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gewerkte uren"
+        android:id="@+id/gewerkteurenbutton"
+        android:background="#6599e8"
+        android:layout_below="@+id/artikelbutton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/leverdatumbutton"
+        android:layout_alignEnd="@+id/leverdatumbutton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Factuur versturen"
+        android:id="@+id/Factuurversturenbutton"
+        android:background="#6599e8"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
